@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        jcenter()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+java {
+    group 'com.bucur'
+    version '1.0-SNAPSHOT'
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+//    implementation 'org.apache.commons:commons-lang3:3.9'
+//    implementation 'com.google.guava:guava:27.1-jre'
+
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.2'
+//    testImplementation 'org.assertj:assertj-core:3.12.2'
+}
