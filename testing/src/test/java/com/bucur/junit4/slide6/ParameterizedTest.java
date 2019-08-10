@@ -44,12 +44,4 @@ public class ParameterizedTest {
         assertEquals(expectedArgument, actualResult);
     }
 
-
-//    @Test
-//    public void parameterizedTest() {
-//        Calculator calculator = new Calculator();
-//        int actualResult = calculator.add(argument1, argument2);
-//        assertEquals(expectedArgument, actualResult);
-//    }
-
 }
