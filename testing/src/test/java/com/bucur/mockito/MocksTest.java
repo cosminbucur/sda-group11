@@ -4,7 +4,6 @@ import com.bucur.junit4.Calculator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.assertEquals;
@@ -18,7 +17,7 @@ import static org.mockito.Mockito.when;
 public class MocksTest {
 
     // mock option 1
-    Calculator mock = Mockito.mock(Calculator.class);
+//    Calculator mock = Mockito.mock(Calculator.class);
 
     // what is a static method?
 

@@ -16,9 +16,18 @@ The project contains multiple sub modules, each with a similar structure:
 ## Courses
 
 ### testing
+- junit4
+- mockito
 
 ### java-advanced
-- concept
+oop
+    inheritance
+    encapsulation
+    abstraction
+    interfaces
+    enums
+
+    
 
 ### design-patterns
 
