@@ -2,4 +2,5 @@ rootProject.name = 'group11'
 include 'java-advanced-code'
 include 'testing'
 include 'java-advanced'
+include 'fundamentals'
 

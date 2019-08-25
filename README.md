@@ -15,19 +15,43 @@ The project contains multiple sub modules, each with a similar structure:
 
 ## Courses
 
+### fundamentals
+
+- methods
+- static
+
 ### testing
 - junit4
 - mockito
 
 ### java-advanced
-oop
+- oop
     inheritance
     encapsulation
     abstraction
     interfaces
     enums
 
+- exceptions
+
+- collections
+
+        generics
+        list
+        set
+        map
+
+- io
     
+        buffered
+        io stream
+        nio
+            files
+
+- functional
+    
+        lambda
+        
 
 ### design-patterns
 
@@ -61,4 +85,3 @@ oop
 	check auto import and wait
 
 	update project
-
