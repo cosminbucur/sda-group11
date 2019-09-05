@@ -84,6 +84,12 @@ solve ex 1, 2 / pag 51 (sda slides)
 - given an object with fields, write to a file using FileOutputStream
 - read the file using FileInputStream and store the stream intro an object
 
+### IO streams
+
+### properties
+
+### logger
+
 ### NIO
 
 - use as many methods as possible from interface Path
@@ -91,3 +97,15 @@ solve ex 1, 2 / pag 51 (sda slides)
 - use as many methods as possible from class Paths 
 - use as many methods as possible from class Files
 - solve ex 1 / pag 86 (sda slides)
+
+### functional interfaces
+
+### lambda
+
+### streams
+
+### optional
+
+### threads
+
+### concurrency
