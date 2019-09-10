@@ -53,7 +53,23 @@ The project contains multiple sub modules, each with a similar structure:
         lambda
         
 
-### design-patterns
+### design patterns
+
+- cohesion
+- coupling
+- fluent
+
+##### GRASP
+- controller
+- expert
+- creator
+
+##### SOLID
+- single responsibility
+- open closed
+- liskov
+- interface segregation
+- dependency inversion
 
 ### java-advanced-code
 

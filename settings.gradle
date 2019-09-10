@@ -3,4 +3,5 @@ include 'java-advanced-code'
 include 'testing'
 include 'java-advanced'
 include 'fundamentals'
+include 'design-patterns'
 
