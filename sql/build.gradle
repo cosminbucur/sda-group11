@@ -1,0 +1,28 @@
+buildscript {
+    ext {
+        junitVersion= '5.4.2'
+    }
+    repositories {
+        jcenter()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+java {
+    group 'com.bucur'
+    version '1.0-SNAPSHOT'
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+}

@@ -4,4 +4,6 @@ include 'testing'
 include 'java-advanced'
 include 'fundamentals'
 include 'design-patterns'
+include 'sql'
+include 'jdbc'
 
