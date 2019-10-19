@@ -7,6 +7,7 @@ public class Statements {
 
     private static final Logger logger = Logger.getLogger(Statements.class.getName());
 
+    // TODO: read from application.yml
     String url = "jdbc:mysql://localhost:3306/jdbc_tutorial?serverTimezone=UTC";
     String user = "root";
     String pass = "root";
@@ -42,7 +43,8 @@ public class Statements {
     }
 
     // select - query
-    public void queryOperation() {
+    public void
+    queryOperation() {
         try {
             // create connection
             Connection connection = DriverManager.getConnection(url, user, pass);
