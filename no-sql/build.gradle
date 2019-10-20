@@ -1,0 +1,41 @@
+buildscript {
+    ext {
+        junitVersion= '5.4.2'
+    }
+    repositories {
+        jcenter()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+java {
+    group 'com.bucur'
+    version '1.0-SNAPSHOT'
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    implementation 'org.mongodb:mongo-java-driver:3.10.2'
+
+    //    testImplementation 'junit:junit:4.12'     // junit 4 tests
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"      // use junit 5 new methods
+    testImplementation "org.junit.jupiter:junit-jupiter-params:$junitVersion"   // runs parametrized test
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.5.0'       // handle default launcher
+
+    testImplementation 'org.assertj:assertj-core:3.12.2'                        // fluent assertions
+    testImplementation 'org.mockito:mockito-core:2.28.2'                        // mocking framework
+
+    testRuntimeOnly "org.junit.vintage:junit-vintage-engine:$junitVersion"      // run legacy junit 4 tests
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"      // run junit 5 tests
+}
