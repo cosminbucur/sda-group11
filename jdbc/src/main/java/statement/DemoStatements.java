@@ -6,6 +6,8 @@ public class DemoStatements {
         Statements statements = new Statements();
 
 //        statements.insertOperation("paul", "alex@gmail.com", "romania");
-        statements.queryOperation();
+//        statements.queryOperation();
+//        statements.updateOperation(1, "updated", "updatedEmail", "updatedCountry");
+        statements.deleteOperation(1);
     }
 }

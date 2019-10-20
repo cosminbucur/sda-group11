@@ -43,8 +43,7 @@ public class Statements {
     }
 
     // select - query
-    public void
-    queryOperation() {
+    public void queryOperation() {
         try {
             // create connection
             Connection connection = DriverManager.getConnection(url, user, pass);
@@ -78,4 +77,45 @@ public class Statements {
         }
     }
 
+    public void updateOperation(int id, String name, String email, String country) {
+        Connection connection = null;
+        Statement statement = null;
+        try {
+            connection = DriverManager.getConnection(url, user, pass);
+            statement = connection.createStatement();
+            statement.executeUpdate("UPDATE user SET name = '" + name + "', " +
+                    "email = '" + email + "', country = '" + country + "' WHERE id = " + id);
+        } catch (SQLException e) {
+            // Handle errors for JDBC
+            logger.severe("failed to update");
+        } catch (Exception e) {
+            // Handle errors for Class.forName
+            logger.severe("something wrong happened");
+        } finally {
+            //finally block used to close resources
+            try {
+                if (statement != null)
+                    statement.close();
+            } catch (SQLException se) {
+            } // do nothing
+
+            try {
+                if (connection != null)
+                    connection.close();
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }
+        }
+    }
+
+    public void deleteOperation(int id) {
+        try (Connection connection = DriverManager.getConnection(url, user, pass);
+             Statement statement = connection.createStatement()) {
+            statement.executeUpdate("DELETE FROM user WHERE id = " + id);
+        } catch (SQLException e) {
+            logger.severe("SQL State: " + e.getSQLState() + " - " + e.getMessage());
+        } catch (Exception e) {
+            logger.severe("something bad happened");
+        }
+    }
 }
