@@ -8,4 +8,5 @@ include 'sql'
 include 'jdbc'
 include 'no-sql'
 include 'hibernate'
+include 'java-fx'
 
