@@ -9,4 +9,6 @@ include 'jdbc'
 include 'no-sql'
 include 'hibernate'
 include 'java-fx'
+include 'spring-data-jpa'
+include 'spring-core'
 

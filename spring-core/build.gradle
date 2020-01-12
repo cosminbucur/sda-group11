@@ -1,0 +1,35 @@
+buildscript {
+    ext {
+        junitVersion= '5.5.2'
+    }
+    repositories {
+        jcenter()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+java {
+    group 'com.bucur'
+    version '1.0-SNAPSHOT'
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.2.1.RELEASE'
+
+    // test
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"        // junit 5 api
+    testCompile "org.junit.jupiter:junit-jupiter-params:${junitVersion}"    // run parameterized tests
+    testRuntime "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"    // run junit 5 tests
+    testCompile 'org.mockito:mockito-junit-jupiter:3.0.0'   // mockito junit 5 support
+}
