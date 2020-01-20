@@ -11,4 +11,7 @@ include 'hibernate'
 include 'java-fx'
 include 'spring-data-jpa'
 include 'spring-core'
+include 'spring-mvc'
+include 'spring-mvc-hibernate'
+include 'spring-thymeleaf'
 

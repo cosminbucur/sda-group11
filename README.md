@@ -20,38 +20,44 @@ The project contains multiple sub modules, each with a similar structure:
 - methods
 - static
 
+---
+
 ### testing
 - junit4
 - mockito
 
+---
+
 ### java-advanced
 - oop
-    inheritance
-    encapsulation
-    abstraction
-    interfaces
-    enums
+
+    - inheritance
+    - encapsulation
+    - abstraction
+    - interfaces
+    - enums
 
 - exceptions
 
 - collections
 
-        generics
-        list
-        set
-        map
+    - generics
+    - list
+    - set
+    - map
 
 - io
     
-        buffered
-        io stream
-        nio
-            files
+    - buffered
+    - io stream
+    - nio
+        - files
 
 - functional
     
-        lambda
-        
+    - lambda
+
+---
 
 ### design patterns
 
@@ -71,7 +77,11 @@ The project contains multiple sub modules, each with a similar structure:
 - interface segregation
 - dependency inversion
 
+---
+
 ### java-advanced-code
+
+---
 
 ### spring
 
@@ -79,8 +89,8 @@ The project contains multiple sub modules, each with a similar structure:
 - config
 - beans
 - scope
-- autowired
-- qualifier
+- @Autowired
+- @Qualifier
 
 ##### Spring Boot 2
 - command line runner
@@ -96,11 +106,48 @@ The project contains multiple sub modules, each with a similar structure:
 - validation
 - repository pattern
 
-##### Spring MVC
+##### Spring MVC JSP
+- persistence jpa config
+
+    - data source
+    - entity manager
+    - transaction manager
+    
+- web mvc config
+    - view resolver
+    - validator
+    
+- service (business layer)
+- controller
+    
+    - @RequestMapping
+    - @PathVariable
+    - @RequestParam
+   
+- mvc
+    
+    - model
+    - model map
+    - model and view
+    - BindingResult
+    - @ModelAttribute
+     
+    - redirect
+    
+    - forms
+    - form validation
 
 ##### Spring Thymeleaf
+- thymeleaf tags
+- thymeleaf templates
 
 ##### Spring Security
+
+##### Spring REST
+
+##### Angular Integration
+
+---
 
 ### testing-advanced
 
