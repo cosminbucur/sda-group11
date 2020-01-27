@@ -1,0 +1,18 @@
+<div>
+  <h1>Add book</h1>
+  <form
+    (ngSubmit="onSubmit()"
+    [formGroup="myForm">
+
+    <!-- title -->
+    <input [(ngModel)]="book.title" type="text">
+
+    <!-- author -->
+    <input [(ngModel)]="book.author" type="text">
+
+    <!-- published -->
+    <input [(ngModel)]="book.published" type="date">
+
+    <button>Save</button>
+  </form>
+</div>

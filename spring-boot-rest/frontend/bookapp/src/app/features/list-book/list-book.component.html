@@ -1,0 +1,9 @@
+<h2>Book list</h2>
+
+<ul *ngFor="let book of books">
+  <li>
+    {{ book.id }} : {{ book.title }}
+    by {{ book.author }}
+    at {{ book.published | date:'mediumDate' }}
+  </li>
+</ul>
