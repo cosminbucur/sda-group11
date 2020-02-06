@@ -150,6 +150,16 @@ The project contains multiple sub modules, each with a similar structure:
 ---
 
 ### testing-advanced
+- multiple database spring config
+- spring profiles (dev + test)
+- unit tests (junit 5)
+    - mapper test
+- mocks (mockito)
+    - service test
+    - controller test
+- integration tests
+    - service test
+    - controller test
 
 ---
 

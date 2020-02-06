@@ -16,4 +16,5 @@ include 'spring-mvc-hibernate'
 include 'spring-thymeleaf'
 include 'spring-security'
 include 'spring-boot-rest'
+include 'testing-advanced'
 
