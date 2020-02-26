@@ -1,4 +1,4 @@
-rootProject.name = 'group11'
+rootProject.name = 'sda-group11'
 include 'java-advanced-code'
 include 'testing'
 include 'java-advanced'
