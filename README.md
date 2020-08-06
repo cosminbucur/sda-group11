@@ -81,6 +81,93 @@ The project contains multiple sub modules, each with a similar structure:
 
 ### java-advanced-code
 
+- oop
+
+    - inheritance
+    - encapsulation
+    - abstraction
+    - interfaces
+    - enums
+
+- exceptions
+
+- collections
+
+    - generics
+    - stack
+    - list
+    - set
+    - map
+    - queue
+
+- functional
+
+    - interfaces  
+    - lambda
+    - stream
+
+- i/o
+
+    - io
+    - nio
+    - properties, yml
+    - logger
+    
+- concurrent
+
+    - thread
+    - executor
+    - callable
+    - synchronization
+
+---
+
+##  databases
+
+### sql
+- mysql
+- mysql workbench
+- data definition language
+- data manimulation language
+- data query language
+- aggregate functions
+- views
+- stored procedures
+- functions
+- triggers
+
+### no sql
+- mongo
+- robo t3
+- mongo crud
+
+## JDBC
+
+- statements
+- prepared statemenets
+- transactions
+
+---
+
+## hibernate
+
+- config
+- crud
+- associations
+    - one-to-one
+    - one-to-many unidirectional
+    - one-to-many unidirectional join
+    - one-to-many bidirectional
+    - many-to-many
+- states
+- transactions
+- types
+- queries
+    - hql
+    - native
+- session
+- audit 
+
 ---
 
 ### spring
