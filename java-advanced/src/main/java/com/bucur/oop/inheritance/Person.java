@@ -2,6 +2,7 @@ package com.bucur.oop.inheritance;
 
 public class Person {
 
+
     private int age;
 
     public Person() {

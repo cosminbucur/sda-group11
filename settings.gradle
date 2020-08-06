@@ -1,20 +1,23 @@
 rootProject.name = 'sda-group11'
-include 'java-advanced-code'
+include 'fundamentals'
 include 'testing'
 include 'java-advanced'
-include 'fundamentals'
 include 'design-patterns'
+include 'java-advanced-code'
 include 'sql'
-include 'jdbc'
 include 'no-sql'
+include 'jdbc'
 include 'hibernate'
+
 include 'java-fx'
-include 'spring-data-jpa'
+
 include 'spring-core'
 include 'spring-mvc'
 include 'spring-mvc-hibernate'
+include 'spring-data-jpa'
+
 include 'spring-thymeleaf'
 include 'spring-security'
 include 'spring-boot-rest'
-include 'testing-advanced'
 
+include 'testing-advanced'

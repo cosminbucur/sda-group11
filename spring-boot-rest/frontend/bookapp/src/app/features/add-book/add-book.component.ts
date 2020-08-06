@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { Book } from '../../shared/models/book.model';
 import { BooksService } from '../../core/services/books.service';
 
@@ -17,6 +17,11 @@ export class AddBookComponent implements OnInit {
   constructor(private bookService: BooksService) { }
 
   ngOnInit() {
+    this.myForm = new FormGroup(
+      {
+        title: new FormControl(''),
+      }
+    );
   }
 
   public onSubmit(): void {
